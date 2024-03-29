@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(246, 246, 244);
+}
+.div{
+
+    border: 3px solid rgb(0, 238, 255);
+    width:40%;
+    height: 40vh;
+    text-align: center;
+    margin:0 auto;
+    background-color: rgb(102, 104, 104);
+}
+.span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+
+h2{
+    font-size: clamp(40px,20px,60px);
+    color:rgb(23, 255, 77);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(8, 8, 8);
+}
+.para{
+    font-size: clamp(40px,20px,100px);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(8, 8, 8);
+    -webkit-text-fill-color: rgb(23, 222, 253);
+    text-shadow: 2px 2px 2px gray;
+   
+}
+
+.input{
+    margin-top: 18%;
+    margin-left:2%;
+    clip-path: circle(100%);
+    width: 20%;
+    height:7vh;
+}
+@media only screen and (max-width: 850px){
+    .box{
+        margin-top: 10%;
+        width:60%;
+    }
+    .div{
+        width:70%;
+    }
+    
+}
